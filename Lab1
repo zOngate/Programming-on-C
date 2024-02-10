@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+    
+int main()
+{
+    double a=1,b=6,c=5;
+    double x1,x2,d = 0;
+    d = pow(b,2) - 4*a*c;
+    printf("d = %lf \n", d);
+    x1 = (-b+sqrt(d))/(2*a);
+    x2 = (-b-sqrt(d))/(2*a);
+    printf("x1 = %lf x2 = %lf",x1,x2);
+    
+    
+  return 0;
+}
